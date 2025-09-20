@@ -1,54 +1,25 @@
-# saham.ai
-📈 Program Analisis Volume Saham Indonesia
-Program ini dirancang untuk menganalisis volume perdagangan saham Indonesia dan memberikan sinyal beli (buy) atau jual (sell) berdasarkan indikator teknikal yang komprehensif.
+# 📈 saham.ai
+Program Analisis Volume Saham Indonesia  
+Program ini dirancang untuk menganalisis volume perdagangan saham Indonesia dan memberikan sinyal beli (buy) atau jual (sell) berdasarkan indikator teknikal yang komprehensif.  
 
-🚀 Fitur Utama
-Analisis Volume: Menggunakan Volume Moving Average (VMA), Volume Rate of Change (VROC), On Balance Volume (OBV)
+## 🚀 Fitur Utama
+- **Analisis Volume**: Volume Moving Average (VMA), Volume Rate of Change (VROC), On Balance Volume (OBV)  
+- **Indikator Teknikal**: MACD, RSI, Moving Average (SMA 20 & 50)  
+- **Sinyal Trading**: Rekomendasi beli/jual berdasarkan multiple konfirmasi indikator  
+- **Risk Management**: Target price (+8%) dan stop loss (-5%) otomatis  
+- **Visualisasi**: Grafik candlestick dengan penanda sinyal dan indikator teknikal  
+- **Export Data**: Kemampuan menyimpan hasil analisis ke file CSV  
 
-Indikator Teknikal: MACD, RSI, Moving Average (SMA 20 & 50)
+## 📋 Prerequisites
+Sebelum menjalankan program, pastikan Anda telah menginstall:  
+- Python 3.6 atau lebih baru  
+- Pip (Python package manager)  
 
-Sinyal Trading: Rekomendasi beli/jual berdasarkan multiple konfirmasi indikator
+## 🔧 Instalasi
+Clone atau download repository ini, lalu install dependencies yang diperlukan:  
 
-Risk Management: Target price (+8%) dan stop loss (-5%) otomatis
-
-Visualisasi: Grafik candlestick dengan penanda sinyal dan indikator teknikal
-
-Export Data: Kemampuan menyimpan hasil analisis ke file CSV
-
-📋 Prerequisites
-Sebelum menjalankan program, pastikan Anda telah menginstall:
-
-Python 3.6 atau lebih baru
-
-```Pip``` (Python package manager)
-
-🔧 Instalasi
-Clone atau download repository ini
-
-Install dependencies yang diperlukan:
-
-bash
-```pip install pandas numpy yfinance matplotlib mplfinance```
-
-🎯 Cara Menggunakan
-Jalankan program di terminal:
-
-Bash
-```python saham.py```
-
-Masukkan kode saham Indonesia yang ingin dianalisis (contoh: BBCA, TLKM, BBRI)
-
-Program akan menampilkan hasil analisis yang mencakup:
-
-Rekomendasi trading (Beli/Jual/Tahan)
-
-Target price dan stop loss
-
-Level support dan resistance
-
-Analisis indikator teknikal (RSI, MACD, Volume)
-
-Sinyal historis 30 hari terakhir
+```bash
+pip install pandas numpy yfinance matplotlib mplfinanceSinyal historis 30 hari terakhir
 
 Pilih opsi untuk melihat grafik analisis teknikal atau menyimpan hasil ke CSV
 
