@@ -24,11 +24,11 @@ Sebelum menjalankan program, pastikan Anda telah menginstall:
 ## 🔧 Instalasi
 Clone atau download repository ini, lalu install dependencies yang diperlukan:  
 
-```bash
-pip install pandas numpy yfinance matplotlib mplfinance
+```pip install pandas numpy yfinance matplotlib mplfinance```
 
 ---
+
 ## 🪡 Pengaplikasian
 Pada terminal gunakan command berikut
-```bash
-python saham.py
+
+```python saham.py```
