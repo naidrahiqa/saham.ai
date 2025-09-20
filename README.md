@@ -20,15 +20,15 @@ Sebelum menjalankan program, pastikan Anda telah menginstall:
 
 Python 3.6 atau lebih baru
 
-```Pip (Python package manager)```
+```Pip``` (Python package manager)
 
 🔧 Instalasi
 Clone atau download repository ini
 
 Install dependencies yang diperlukan:
 
-```bash
-pip install pandas numpy yfinance matplotlib mplfinance```
+bash
+```pip install pandas numpy yfinance matplotlib mplfinance```
 
 🎯 Cara Menggunakan
 Jalankan program di terminal:
