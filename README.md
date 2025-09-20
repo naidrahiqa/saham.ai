@@ -2,64 +2,33 @@
 Program Analisis Volume Saham Indonesia  
 Program ini dirancang untuk menganalisis volume perdagangan saham Indonesia dan memberikan sinyal beli (buy) atau jual (sell) berdasarkan indikator teknikal yang komprehensif.  
 
+---
+
 ## 🚀 Fitur Utama
-- **Analisis Volume**: Volume Moving Average (VMA), Volume Rate of Change (VROC), On Balance Volume (OBV)  
+- **Analisis Volume**: Volume Moving Average (VMA), Volume Rate of Change (VROC), On Balance Volume (OBV), Volume Price Trend (VPT)  
 - **Indikator Teknikal**: MACD, RSI, Moving Average (SMA 20 & 50)  
 - **Sinyal Trading**: Rekomendasi beli/jual berdasarkan multiple konfirmasi indikator  
 - **Risk Management**: Target price (+8%) dan stop loss (-5%) otomatis  
 - **Visualisasi**: Grafik candlestick dengan penanda sinyal dan indikator teknikal  
 - **Export Data**: Kemampuan menyimpan hasil analisis ke file CSV  
 
+---
+
 ## 📋 Prerequisites
 Sebelum menjalankan program, pastikan Anda telah menginstall:  
 - Python 3.6 atau lebih baru  
 - Pip (Python package manager)  
 
+---
+
 ## 🔧 Instalasi
 Clone atau download repository ini, lalu install dependencies yang diperlukan:  
 
 ```bash
-pip install pandas numpy yfinance matplotlib mplfinanceSinyal historis 30 hari terakhir
+pip install pandas numpy yfinance matplotlib mplfinance
 
-Pilih opsi untuk melihat grafik analisis teknikal atau menyimpan hasil ke CSV
-
-📊 Indikator yang Digunakan
-1. Analisis Volume
- •VMA (Volume Moving Average): Rata-rata volume 20 hari
-
- •VROC (Volume Rate of Change): Perubahan volume 10 hari
-
- •OBV (On Balance Volume): Akumulasi volume positif/negatif
-
- •VPT (Volume Price Trend): Hubungan volume dan perubahan harga
-
-2. Indikator Teknikal
- •MACD: Momentum trend (12, 26, 9 periode)
-
- •RSI: Relative Strength Index (14 periode)
-
- •SMA: Simple Moving Average (20 & 50 periode)
-
-⚡ Kriteria Sinyal
-🟢 Sinyal BELI (Buy):
-Volume > 1.5x VMA dengan harga menguat
-
-MACD bullish crossover dengan RSI < 70
-
-OBV trending up dengan trend bullish (SMA 20 > SMA 50)
-
-🔴 Sinyal JUAL (Sell):
-Volume > 1.5x VMA dengan harga melemah
-
-MACD bearish crossover dengan RSI > 30
-
-OBV trending down dengan trend bearish (SMA 20 < SMA 50)
-
-📁 Struktur Output
-Program akan menghasilkan:
-
-Analisis real-time di terminal
-
-Grafik teknikal interaktif (opsional)
-
-File CSV dengan data historis dan sinyal (opsional)
+---
+## 🪡 Pengaplikasian
+Pada terminal gunakan command berikut
+```bash
+python saham.py
