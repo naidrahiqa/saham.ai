@@ -33,7 +33,7 @@ pip install pandas numpy yfinance matplotlib mplfinance
 Jalankan program di terminal:
 
 bash
-python analisis_saham.py
+python saham.py
 Masukkan kode saham Indonesia yang ingin dianalisis (contoh: BBCA, TLKM, BBRI)
 
 Program akan menampilkan hasil analisis yang mencakup:
